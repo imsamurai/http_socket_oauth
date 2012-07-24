@@ -114,12 +114,13 @@ class HttpSocketOauth extends HttpSocket {
         // details.
         // Building the request uri, note we don't include the query string or
         // fragment. Standard ports must not be included but non standard ones must.
+        $request['uri'] = $this->_parseUri($request['uri']);
         $uriFormat = '%scheme://%host';
         if (isset($request['uri']['port']) && !in_array($request['uri']['port'], array(80, 443))) {
             $uriFormat .= ':' . $request['uri']['port'];
         }
         $uriFormat .= '/%path';
-        $requestUrl = $this->_buildUri($this->_parseUri($request['uri']), $uriFormat);
+        $requestUrl = $this->_buildUri($request['uri'], $uriFormat);
 
         // OAuth reference states that the request params, i.e. oauth_ params, body
         // params and query string params need to be normalised, i.e. combined in a
