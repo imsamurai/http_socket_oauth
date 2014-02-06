@@ -1,3 +1,8 @@
+Http socket for auth authorization
+==================================
+[![Latest Stable Version](https://poser.pugx.org/imsamurai/http-socket-oauth/v/stable.png)](https://packagist.org/packages/imsamurai/http-socket-oauth) [![Total Downloads](https://poser.pugx.org/imsamurai/http-socket-oauth/downloads.png)](https://packagist.org/packages/imsamurai/http-socket-oauth) [![Latest Unstable Version](https://poser.pugx.org/imsamurai/http-socket-oauth/v/unstable.png)](https://packagist.org/packages/imsamurai/http-socket-oauth) [![License](https://poser.pugx.org/imsamurai/http-socket-oauth/license.png)](https://packagist.org/packages/imsamurai/http-socket-oauth)
+
+
 Usage instructions (we'll take twitter as an example):
 
 1. Grab the code from my <a href="http://github.com/neilcrookes/http_socket_oauth">github account</a> and add it to app/vendors/http_socket_oauth.php
