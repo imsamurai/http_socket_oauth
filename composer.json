@@ -1,0 +1,38 @@
+{
+  "name": "imsamurai/http-socket-oauth",
+  "description": "Http socket for auth authorization",
+  "type": "cakephp-plugin",
+  "keywords": [
+    "cakephp",
+    "http",
+	"socket",
+	"oauth",
+    "vendor"
+  ],
+  "homepage": "http://github.com/imsamurai/http_socket_oauth",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Shamray Alexander",
+      "email": "im.samuray@gmail.com",
+      "homepage": "https://imsamurai.me",
+      "role": "Maintainer"
+    },
+    {
+      "name": "Neil Crookes",
+      "homepage": "http://www.neilcrookes.com/",
+      "role": "Founder"
+    }
+  ],
+  "require": {
+    "composer/installers": "*"
+  },
+  "support": {
+    "email": "im.samuray@gmail.com",
+    "issues": "https://github.com/imsamurai/http_socket_oauth/issues",
+    "source": "https://github.com/imsamurai/http_socket_oauth"
+  },
+  "extra": {
+    "installer-name": "HttpSocketOauth"
+  }
+}
